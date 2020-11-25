@@ -17,7 +17,7 @@ section
 {
     position: relative;
     min-height: 100vh;
-    background: url(image/sb-blog-programming.jpg);
+    background: url(image/website-design-background-1.jpg);
     background-size: cover;
     background-position: right;
     display: flex;
@@ -43,5 +43,20 @@ section
 {
     font-size: 1.5em;
     color: #fff;
+    font-weight: 500;
+}
+
+.btn
+{
+    position: relative;
+    background: #fff;
+    display: inline-block;
+    color: rgb(7, 3, 3);
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
     font-weight: 500;
 }
