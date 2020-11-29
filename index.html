@@ -4,28 +4,30 @@
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Personal Portfolio | Responsive Website Design</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
   <header>
     <a href="#" class="logo">Portfolio</a>
-    <div class="toggle"></div>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Contact</a></li>
+    <div class="toggle" onclick="toggleMenu();"></div>
+    <ul class="menu">
+      <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+      <li><a href="#about" onclick="toggleMenu();">About</a></li>
+      <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
+      <li><a href="#blog" onclick="toggleMenu();">Blog</a></li>
+      <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
     </ul>
   </header>
-    <section class="banner">
+
+    <section class="banner" id="home">
       <div class="textBx">
         <h2><br><span>Danielle Cruz Torres</span></h2>
 
-        <a href="#" class="btn">About Me</a>
+        <a href="#about" class="btn">About Me</a>
       </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <div class="heading">
         <h2>
           About Me<br><br>
@@ -52,9 +54,10 @@
         </div>
       </div>
     </section>
-    <section class="projects">
+
+    <section class="projects" id="projects">
       <div class="heading white">
-        <h2>Portfolio<br></h2>
+        <h2>Projects<br></h2>
         <div class="content">
           <div class="projectsBx">
             <video width="320" height="240" controls>
@@ -94,7 +97,8 @@
         </div>
       </div>
     </section>
-    <section class="blog">
+
+    <section class="blog" id="blog">
       <div class="heading">
         <img src="image/Blog.jpg" class="img">
       </div>
@@ -105,11 +109,60 @@
         </div>
       </div>
     </section>
+
+    <section class="contact" id="contact">
+      <div class="heading white">
+        <h2>Contact Us</h2>
+        <p>Please leave me a message!</p>
+      </div>
+      <div class="content">
+          <div class="contactInfo">
+            <h3>Contact Us</h3>
+            <div class="contactInfoBx">
+              <div class="box">
+                <div class="icon">              
+                  <i class="fa fa-map-marker"></i>
+                </div>
+                <div class="text">
+                  <h3>Address</h3>
+                  <p>Charlotte, NC</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="icon">            
+                  <i class="fa fa-envelope-o"></i>
+                </div>
+                <div class="text">
+                  <h3>Email</h3>
+                  <p>cruz_danielle_torres@yahoo.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="formBx">
+            <form>
+              <h3>Message Me</h3>
+              <input type="text" name="" placeholder="Full Name">
+              <input type="email" name="" placeholder="Email">
+              <textarea placeholder="Your Message"></textarea>
+              <input type="submit" value="Send">
+            </form>
+          </div>
+        </div>    
+
+    </section>
     <script type="text/javascript">
       window.addEventListener('scroll', function(){
         var header = document.querySelector('header');
         header.classList.toggle('sticky', window.scrollY > 0);
       });
+
+      function toggleMenu(){
+        var menuToggle = document.querySelector('.toggle');
+        var menu = document.querySelector('.menu');
+        menuToggle.classList.toggle('active');
+        menu.classList.toggle('active');
+      }
     </script>
   </body>
 </html>
