@@ -164,6 +164,48 @@ img
     padding: 40px 20px;
 }
 
+.skills .heading.white 
+{
+    color: #111;
+}
+
+.skills .heading.white h2
+{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.skills .content
+{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.skillsBx
+{
+    padding: 1rem;
+    color: #111;
+    cursor: pointer;
+}
+
+.skill-title
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
 .projects
 {
     background: #111;
