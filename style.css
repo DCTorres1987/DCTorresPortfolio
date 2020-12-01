@@ -204,6 +204,18 @@ img
     font-weight: 600;
 }
 
+.projects .content .projectsBx h3
+{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.projects .content .projectsBx p
+{
+    font-size: 12px;
+    font-weight: 500;
+}
+
 .blog .content .heading
 {
     font-weight: 600;
