@@ -37,7 +37,7 @@ section
 .banner h2 span
 {
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .banner h3
@@ -161,7 +161,7 @@ header.sticky ul li a
 img
 {
     max-width: 100%;
-    padding: 40px 20px;
+    padding: 30px 10px;
 }
 
 .skills .heading.white 
