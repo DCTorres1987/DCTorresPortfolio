@@ -259,6 +259,11 @@ img
     font-weight: 500;
 }
 
+video {
+    display: block;
+    margin: auto;
+  }
+
 .blog .content .heading
 {
     font-weight: 600;
