@@ -7,7 +7,12 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
-    overflow: inherit;
+    
+}
+
+body {
+    overflow-x: hidden;
+    max-width: 100%;
 }
 
 section
