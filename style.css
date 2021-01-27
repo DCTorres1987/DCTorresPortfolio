@@ -9,14 +9,10 @@
     scroll-behavior: smooth;   
 }
 
-body {
-    overflow-x: hidden;
-}
-
-
 section
 {
     padding: 100px;
+    overflow-x: hidden;
 }
 
 .banner
