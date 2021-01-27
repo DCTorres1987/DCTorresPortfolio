@@ -7,13 +7,10 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
+    overflow: auto;
     
 }
 
-body {
-    overflow-x: hidden;
-    max-width: 100%;
-}
 
 section
 {
