@@ -260,8 +260,8 @@ img
 }
 
 video {
-    display: block;
-    margin: auto;
+    width: 100%;
+    height: auto;
   }
 
 .blog .content .heading
@@ -476,11 +476,6 @@ video {
     {
         margin: 20px 0;
     }
-
-    video {
-        display: block;
-        margin: auto;
-      }
 
     @media (max-width: 600px)
     {
