@@ -337,9 +337,7 @@ video {
 {
     position: relative;
     padding: 20px 0;
-    display: flex;
-    
-    
+    display: flex;    
 }
 
 .contactInfoBx .box .icon
@@ -496,5 +494,14 @@ video {
         }
     }
 
-
 }
+
+/* section .resume {
+    background-color: #D5D8DC;
+}
+
+.resume .resume-table {
+    width: 700px;
+    height: 800px;
+    align-items: center;
+} */
