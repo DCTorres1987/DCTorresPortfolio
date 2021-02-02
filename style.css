@@ -115,7 +115,7 @@ header ul li
 header ul li a
 {
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
     margin: #fff;
     margin: 0 15px;
     color: #fff;
@@ -495,13 +495,3 @@ video {
     }
 
 }
-
-/* section .resume {
-    background-color: #D5D8DC;
-}
-
-.resume .resume-table {
-    width: 700px;
-    height: 800px;
-    align-items: center;
-} */
