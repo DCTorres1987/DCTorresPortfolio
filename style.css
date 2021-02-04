@@ -499,3 +499,8 @@ video {
 {
     display: list-item;
 }
+
+.resume p
+{
+    text-align: left;
+}
