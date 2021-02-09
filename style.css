@@ -501,6 +501,11 @@ video {
     text-align: left;
 }
 
+.resume h1 
+{
+    text-align: center;
+}
+
 .resume p, h4
 {
     text-align: left;
