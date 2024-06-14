@@ -147,6 +147,11 @@ header.sticky ul li a
     justify-content: space-between;
 }
 
+.contentBx p:first-child {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
 .contentBx h3
 {
     font-size: 24px;
@@ -160,8 +165,9 @@ header.sticky ul li a
 
 img
 {
+    border-radius: 125px;
     max-width: 100%;
-    padding: 40px 20px;
+    padding: 20px 20px;
 }
 
 .skills .heading.white 
@@ -510,4 +516,8 @@ video {
 .resume p, h4
 {
     text-align: left;
+}
+
+.about {
+    border-bottom: solid;
 }
